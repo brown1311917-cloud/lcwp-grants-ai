@@ -50,15 +50,38 @@ Below is the official documentation, rules, and SOPs for your role. You must adh
 *** END SOP DOCUMENT ***
 """
 
-# 6. Initialize the AI Model
-# This removes the guessing game by dynamically finding the exact Gemini 1.5 Pro version your API key is authorized to use.
-available_models = [m.name for m in genai.list_models() if 'gemini-1.5-pro' in m.name]
-definitive_model_name = available_models[0] if available_models else "gemini-1.5-pro-002"
+# 6. Initialize the AI Model (Bulletproof Dynamic Selection)
+# Ask Google exactly which text models this specific API key is allowed to use
+valid_models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
 
-model = genai.GenerativeModel(
-    model_name=definitive_model_name,
-    system_instruction=system_instruction
-)
+if not valid_models:
+    st.error("Error: This API key does not have access to any text models. Please create a new key at aistudio.google.com")
+    st.stop()
+
+# Automatically select the best available model your key has access to
+chosen_model = valid_models[0] 
+for model_name in valid_models:
+    if '1.5-pro' in model_name:
+        chosen_model = model_name
+        break
+    elif '1.5-flash' in model_name:
+        chosen_model = model_name
+    elif 'gemini-pro' in model_name:
+        chosen_model = model_name
+
+# Initialize using the approved model
+try:
+    model = genai.GenerativeModel(
+        model_name=chosen_model,
+        system_instruction=system_instruction
+    )
+except Exception:
+    # Safe fallback if an older model rejects system instructions
+    model = genai.GenerativeModel(model_name=chosen_model)
+
+# Add a tiny note in the sidebar so you know exactly which model it successfully used
+with st.sidebar:
+    st.caption(f"Connected to: {chosen_model}")
 # 6. Setup the Chat Memory
 if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
