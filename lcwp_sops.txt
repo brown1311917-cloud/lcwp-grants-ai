@@ -1,0 +1,277 @@
+# Summary of Current Statuses and Processes
+This is written by Christina Martin, upon her departure in mid January 2026.
+
+## Note On Organization
+This document is primarily organized by grant.
+Within each, I have noted primary contacts (both funder and partners), necessary processes, portal links, next steps, and considerations.
+
+---
+
+## ARPA
+
+### Status
+This grant is in the final stretch and ends 12/31/26. All of the projects are finished or finishing up. BEST is still in the process, so talk to Ashley Spotts on updates and progress. City of Lancaster is the other project that is finished but the final report and reimbursement is due 1/30/26. Instructions from Andrew are all on the S drive, as well as the tracking, reporting, files etc. 
+
+Since the grant is in the final stages, the County has requested that a report is sent on a monthly basis with the updates. The templates of what they want are on the S drive. The next report for this past month is due on 1/30/26. 
+* Email with instructions: \\LCCD-FS1\Shared\Grants\Active\Shared Departments\ARPA Grant
+* Files on S Drive
+
+### Processes
+* \\LCCD-FS1\Shared\Grants\Active\Shared Departments\ARPA Grant
+* This shows the type of Comprehensive report they are looking for on a monthly basis. This can be added to and then sent to the County: \\LCCD-FS1\Shared\Grants\Active\Shared Departments\ARPA Grant\Reporting\October 2025 Comprehensive Report
+* Last quarterly report, so this can be duplicated for the next report: \\LCCD-FS1\Shared\Grants\Active\Shared Departments\ARPA Grant\Reporting\2025 Q4 Report
+
+---
+
+## Regional Conservation Partnership Program (RCPP)
+
+### Who to Pass Information On To:
+I was supposed to handle the reimbursement request after Megan’s departure, but due to the government shutdown and then waiting for the amendment to take place, I have not been able to do a reimbursement request yet. This was Megan’s instructions for the RCPP grant. 
+
+The invoices that have been received to date that need to be submitted for reimbursement are saved in a file here: Unsubmitted Reimbursement/Invoices. These were sent as a zipped file via email to Haley by Allyson on 1/23/26.
+
+A new reimbursement request was not started in the portal because Allyson’s account was not linked to the project in the portal at this time. Haley showed her how to do it once the portal is accessible by Allyson.
+
+* **Christina:** Reimbursement Requests and Invoices. Christina will need to create a login.gov account.
+* **Likely won’t be done b/c of shutdown:** Talk to Haley to tell her that I’m leaving and to check if Monique can be added to the staff table. 
+* Introduced Monique to the TeamAg, Adam Mowery, and Jeremy, as well as Heather.
+
+### Status
+FA is the implementation funding - it has all been allocated except for a small amount that is being held in case contracted projects need it.
+List of projects (last tab on linked sheet). This includes who is providing technical assistance for the project. Roughly half are NRCS. For the other half, we pay the technical service provider (TSP) out of the TA-I portion of the budget. We have agreements in place with TeamAg, Mowery Environmental (1 project), and Weaver Environmental for this (1 project).
+
+Amendments to both Supplemental Agreements are being reviewed at the federal level (caught up in shut down now). After those go through, there will be an amendment request for the entire PPA (the overarching agreement) to extend it by one year - to Sept. 30th, 2027. The reason for the extension is because implementation dates for some of the BMPs are in 2027. By extending the PPA, the FA can be covered as well as the TA.
+
+There is a RCPP Leadership Team. They next meet on 11/10: agenda created, Megan Ray was ordering food, and Jeremy is the contact w/ Reuber Esh. It’s been a long time since they met, so the above updates should be shared with them.
+
+### Processes
+The TA providers send invoices to us. They are entered on an internal tracking sheet and then on NRCS’s required spreadsheet. 
+* TA-I SA Process, RCPP
+* Links to spreadsheets: Invoice Tracking for SA's | RCPP TA Partner Tracker_2437.xlsx
+
+Send the draft NRCS sheet (Partner Tracker one) to Haley to look over. After it’s good with her, submit a reimbursement request in the portal. You’ll attach a pdf of the spreadsheet and all invoices. 
+Portal Link. The portal is working during the shut down but no reimbursement requests can be submitted until amendments have been approved.
+You use the login.gov option. Here’s a step-by-step guide to create a new payment request in the portal.
+Once you get notification that it’s been approved (it’ll go through signatures digitally once approved), you can have the invoices paid. The money should be deposited within a week or so at that point.
+
+### Contacts
+| Organization | Contact | Go to For… | Email |
+|---|---|---|---|
+| NRCS | Haley Dukes | She’s the PA RCPP Coordinator - reimbursement requests, RCPP questions and details | haley.m.dukes@usda.gov |
+| NRCS | Heather Grove | Lancaster DC, farm-specific details and some overall questions on steps per project | heather.grove@usda.gov |
+| TeamAg | Britton Hartzok | Questions on TeamAg Projects | brittonh@teamaginc.com |
+| TeamAg | Maddie Klein | Questions on TeamAg Projects | maddiek@teamaginc.com |
+| TeamAg | Jess Kline | TeamAg billing | jessk@teamaginc.com |
+| Mowery Environmental | Adam Mowery | Anything for Mowery Env. | adam@moweryenvironmental.com |
+| Weaver Environmental | Jeremy Weaver | Anything for Weaver Env. | weaverenvironmentalconsulting@gmail.com |
+| Stroud Water Resources Center | Betsy Kerlin | Billing questions/subgrant admin | bkerlin@stroudcenter.org |
+| Stroud Water Resources Center | Diana Oviedo | Monitoring updates on the biofilter | doviedo@stroudcenter.org |
+
+---
+
+## Chesapeake Bay Trust
+
+### Status
+We just started Year 4 of a potential 5 year program. Final reports were completed, closed out and reimbursements were received for all of Year 3 phases. We recently received the Year 4 Phase 1 and Year 4 Phase2 funding. 
+We received the Year 4 award letter and agreement.
+Monique did this - New subaward agreements will need to be drafted and executed for Year 4.
+
+**Tracking/Budget**
+The next financial report for the CBT grant is due on 9/30/26. This is the link that will need to be filled out for submission. All of the instructions are on the tabs. 
+* Financial Report due 9/30/26
+* Financial Report due 11/30/26
+
+### Contacts
+* Amber Cameron, acameron@cbtrust.org
+* Danielle Hamilton, dhamilton@cbtrust.org
+
+---
+
+## Most Effective Basins (MEB)
+
+### Status
+Most, if not all of the funding has been allocated. One project that LFT was supposed to be doing came in under budget and now Alex is working on trying to find a project to replace that one. 
+Currently everything is up to date on agreements, amendments, and reporting. A reimbursement request will need to be done soon for staff time as invoices that came in after last reimbursement from October 2025. The file for the reimbursement request and tracking is here, as well as the NFWF Reimbursement Instructions for Easy Grants.
+* NFWF Payment Guide Instructions
+* Tracking/Reimbursement Requests
+
+A couple of notes:
+Projects will need to be put into FieldDoc. For most, this should be straightforward, but for a couple, conversations will need to be had with project leads about what they’re reporting in FieldDoc for other NFWF funding that is going into the project. Ones I know of where this will be a factor are the Andy Ill project and the LFT project that was recently contracted. 
+
+RCPP should be used for match and for additional N reductions in FieldDoc. Details on FA amounts for RCPP and BMPs can be obtained from Heather Grove with NRCS.
+Example - Heather Grove sent emails to Allyson and the project lead when a FA payment was set to a RCPP landowner. 
+
+Portal Link. Currently the NFWF MEB Financial, Reimbursement and Narrative reports are assigned to me in Easy Grants. These will need to be re-assigned to someone else to be able to login and submit them.
+
+### Files
+* Budget/Tracking
+* Projects
+
+### Contacts
+| Organization | Contact | Go to For… | Email |
+|---|---|---|---|
+| NFWF | Margaret Card-Silache | She’s the NFWF Coordinator - reimbursement requests, reports, NFWF questions and details | margaret.card-silache@nfwf.org |
+| TeamAg | Britton Hartzok | Questions on TeamAg Projects-Ephraim King | brittonh@teamaginc.com |
+| TeamAg | Maddie Klein | Questions on TeamAg Projects-Ephraim King | maddiek@teamaginc.com |
+| Mowery Environmental | Adam Mowery | Projects for Mowery Env - Elmer Stoltzfus, Henry Kauffman and Alvin Kauffman | adam@moweryenvironmental.com |
+| Weaver Environmental | Jeremy Weaver | Projects for Weaver Env. - Melvin Lapp | weaverenvironmentalconsulting@gmail.com |
+| Alliance for the Chesapeake Bay | Mauricio Rosales | Questions on ACB Projects-Elam Miller | mrosales@allianceforthebay.org |
+| Alliance for the Chesapeake Bay | Jedd Moncavage | Questions on ACB Projects-Elam Miller | jeddm@teamaginc.co |
+| Spring Hill Partners | Reid Garner | Questions on Coopers Hill Run project | reid.garner@springhillpartnersllc.com |
+| ACB Buffer Planting | James Kauffman | Questions on Buffer Planting project contracted with ACB | jkauffman@allianceforthebay.org |
+| LFT | Jeb Musser or Amy Baumann | Questions on Ag BMP project contracted with LFT on David Stoltzfoos farm | abaumann@lancft.org |
+
+---
+
+## Campbell TA
+
+### Status
+We were awarded a new year of funding ($212,500). There is also money remaining from the previous year. Campbell has been very flexible by allowing us to decide how best to spend it. 
+
+Generally, the funding is for outreach, plan writing, design, and other technical assistance needs for Ag projects (primarily in delisting catchments). Campbell has encouraged us to be broad in our definition of technical assistance. 
+
+We have current agreements with TeamAg, Mowery Environmental, and Weaver Environmental for outreach, plan writing, and project management under the grant. This also can include their staff time attending catchment meetings.
+
+Other things included under Campbell TA: trainings, events and celebrations (including food), and stormwater design invoices for Ag projects in delisting catchments when not covered by other funding programs (ex: RCPP projects).
+
+From the Finance and Grants Coordinator position, the only thing I handled with this grant was updating the tracking system and paying invoices. A new tracking system for 2026 funds needs to be created. This will need to be created along with Monique who is handling the budget for that.
+
+### Links
+* Current Tracking - most up to date
+
+### Contacts
+* Caroline Harper, charper@campbellfoundation.org
+
+---
+
+## Growing Greener Watershed Renaissance Initiative
+
+### Who to Pass Information On To: 
+* Finance and Grants Coordinator: Reimbursement Requests and Invoices 
+* Monique: Programmatic Details
+
+### Status
+Information for both grants are saved in this folder.
+Financial Reports/Reimbursement Requests are due on the 15th of the month following the close of the quarter. The Work Progress Report is attached as the last page when submitting the reimbursement request to Christina Fesler. The next one will be due on 4/15/26. 
+
+Below are the documents you will need to complete for the reimbursement requests, as well as including the invoices that go along with them. You can reference a past one to see what all should be included. 
+* Reimbursement Supplemental Sheet Checklist
+* Application for Reimbursement
+* Application for Reimbursement Supplemental Sheet
+* Match should be entered on the reimbursement request form as well.
+* I put all match documentation in this folder.
+
+There are two Watershed Renaissance Initiative grants, one for three catchments in the Conestoga (Co76, Co77, and Co49) and one for Calamus Run (P96) in the Pequea. They are for pre-construction work - outreach, plan writing, design, advanced nitrogen management coaching. The majority of the budget is within an agreement with TeamAg. 
+The design line was separate. Some was used for Calamus Estates in Calamus Run and for Vision Engineering to produce a concept plan in Hammertown. There is some design funding remaining on both.
+
+### Contacts
+* Christina Fesler, cfesler@pa.gov
+* Austin Hanssen, austinh@teamaginc.com
+* Vision Engineering, john@visionengineeringinc.net
+* Terry Martin, tmartin@caernarvonlancaster.org & Bob Lauffer, blauffer@caernarvonlancaster.org at Caernarvon Twp.
+
+---
+
+## Internal Operations/Misc.
+
+### Status
+* Metrics Sheet
+* Audit Prep Sheet - should be replicated for 2025
+* Funding Matrix intention. This is still a need - to create a matrix of funding sources with agency/organization, relevant dates, eligible BMPs and applicants, amounts, and any other things to know. While this exists to some extent at the State and regional levels, a local one with information on buffer bonus programs per watershed, any unallocated funding in grants held by partners, and other local offerings would be helpful.
+* Reimbursement Request Spreadsheet - Finance and Grants Coordinator maintains this.
+* Zeffy donations go straight to the bank account and comes into QB with no code and into the general operating pot; it needs to have a GL account as “contributions income”
+* Verizon will require a meeting with Chris to call Verizon together with the new person. Payment has to be done manually from a work landline phone monthly using the credit card
+* Credit card bill monthly payment online - credit card tracking report needs to be completed and have Allyson sign off on approving the codes/classes for each transaction, before adding to the Invoice Approval List to be paid
+* Check writing weekly
+* Bill.com is what many of our funders use to deposit ACH grant. Stacey has access and can add a new user. 
+
+---
+
+## RESOURCES
+
+* SOP for Finance and Grants Coordinator
+* Roles and Responsibilities of Finance and Grants Coordinator
+* Background, CWF, and other Processes
+* Grants Overview
+* Common Attachments for Applications
+* Template Bid Docs and Other Resources. See start of a slide deck in there.
+
+Hi Allyson. I am going to switch your role on Zeffy to become the Admin instead of myself. This way you will have full access to everything. Then once you decide you want to change the next Admin to the new hire etc, you will just go under your name, settings, Organization, Manage Users and add the newest person/update their access to Admin instead of User. Let me know if you have any questions, or prefer a different scenario for the time being. Thanks
+
+Invoice from District comes usually by the 8th of each month. Use last months Invoice, make a copy, then use the Timesheets to enter hours for each employee per class. Update staff rates as needed (check with Stacey). Make sure new classes are added as a new column and copy formulas for each employee. The ARPA and CAP needs calculated and comes off the total, then the new invoice total is given to Stacey for signatures. Once Board approves, Stacey notifies you and it can be paid. 
+Invoice for staff hours (Alex) needs created and sent to Michael Augustin and cc Carly Dean, for the previous month. Wait until you have the full month's hours in Timesheets and then make a copy of the previous month, enter a new total and email.
+
+---
+
+## Roles and Responsibilities
+
+| Item | Lead | 2nd set of eyes |
+|---|---|---|
+| Manage financial elements of grants initiated/led by the Partners | Christina | |
+| - serve as lead on maintaining the grants Overview Sheet | Christina | |
+| - Submit reimbursement requests in each funder's format (usually portal/online system) with the exception of RCPP | Christina | Stacey and Thuy/Megan as appropriate |
+| - Monitor sub-grantees and ensure financial compliance as outlined in grant agreements | Christina | |
+| - Receive invoices from subawardees, complete voucher form, enter into QB | Christina | Megan to provide coding guidance and sign vouchers |
+| - Write checks to pay invoices for grants managed by the Partners | Christina | Stacey and Thuy |
+| - Make any corrections (reclassing, JEs, etc.) after written notification of the need. Proper backup should be maintained. This should be checked by Stacey. | Christina | Stacey |
+| - Track all contribution/match tracking | Christina | |
+| Completion of onboarding forms as new agreements are executed | Christina | |
+| Provide any confirmation of receipt forms for revenue (ex: Campbell CR forms) | Christina | |
+| Maintain grant files to include all agreements, amendments, copies of invoices, and tracking sheets | Christina | Megan (with the exception of RCPP and NFWF CC where Megan and Alex respectively are the leads) |
+| Compile financial tracking sheets, and one overall report, to show the amount of the grant budget expended, amount received, and pending reimbursements. | Christina | Megan |
+| Maintain a separate list of pending reimbursements for Stacey to refer to as money is received | Christina | |
+| Work with sub-awardees throughout their project to report successes, discuss and overcome any obstacles, and report results to funding partners | | |
+| Lead on the MEB Weaving the Threads of Funding and Ag grant to include shepharding process for the including parter communication and flow for application forms, landowner agreements, attachments for both, approvals by advisors, and invoices; maintaining grant file and subaward agreements ensuring signatures and that copies get back to the technical service providers and farmers; tracking of all expenses for the grant, as well as reimbursements (from NFWF but also to farmers) and timeline; and reporting to NFWF. | Christina | Megan to lead in rolling out and will handoff to Christina but will still assist |
+| Research and know funders and their programs so the Partners take advantage of what is available (such as National Fish and Wildlife Foundation, Natural Resource Conservation Services, Department of Environmental Protection, private family foundations, and more) | Christina | Megan and Allyson |
+| Coordinate with sub-awardees or subcontractors to ensure contracts, project deliverables, and collaborative tasks are in process or completed appropriately | Christina | |
+| Provide clear guidance to partner organizations about grant performance expectations and help find resources for the accomplishment of expectations as needed. | | |
+| Relay updates on progress and follow up with project and/or grant leads | | |
+| **Finance Reporting** | | |
+| Prepare bi-monthly financial reports for the Board of Trustees | Christina | Allyson |
+| Have a dashboard of grant highlights for each board meeting | Christina | Megan |
+| Manage the Partners bank accounts | Christina | Stacey and Thuy |
+| do the credit card reports | Christina | Stacey and Thuy |
+| provide yearly financials for the year in review | Christina | Megan/Allyson |
+| **Eventually....** | | |
+| Lead the refinement and/or development of fiscal policy and procedures for the Partners and within the Conservation Foundation | | |
+| Write and support new Requests for Proposals and other materials for programs/funding managed by the Partners. | | |
+| Coordinate financial accountability and compliance for the Partners | | |
+| Manage the Clean Water Fund details, working closely with the Community Foundation staff to align with processes and opportunities | | |
+| Be the point person for the audit process | | |
+
+---
+
+## [ATTACHED DOCUMENT: Grants Overview - Overview.csv]
+
+| Grants | Partner's Staff Lead | Amount | Amount remaining | Grant deadline | Matching Requirements | Matching Fund Source | Description | Current Status Needs | Next date to Know | What's Due |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| Countywide Action Plan Implementation | | $9,795,369 | | | | | CAP Coordinator & Implementation - Clean Water Fund Large Implementation grants | Contracting, determine all allocations | 5/30/24 | End of IIJA grant period for select subgrantees |
+| Crescendo in Collaboration- NFWF INSR | | $969,326 | | | | | Where urban meets Ag - muncipal and landowner coordination in 6 delisting catchments | Extension to 3/30/25 | 3/2025 | End of grant period Final Programmatic and Financial Reports due 5/30/25 |
+| RCPP | Michael (Ryan S) | $7,400,000 | | | | | BMP Implementation on farms in Lancaster; delisting catchments are prioritized. At least 35 ft. forested buffer required at every point of stream. | Amendments pending at the national level for SAs and the overarching PPA (to extend) | | Once amendments are approved, need to submit a reimbursement request. |
+| ARPA | Allyson/Matt K | $3,465,156 | | | | | Package of 11 Clean Water Projects funded by Lancaster County Commissioners with ARPA funding. | Going well; two presentations to Commissioners a year. | 1/15 | Quarterly Report |
+| Clean Water Fund - Small | Alex | $100,000 | | Applicants July 1; Campbell report/application September | | | Small Implementation and Community Conservation Grants - fund held at LCCF | Prepping Application & Info Sheets | 3/12 | LCCF Grants and Opps Session; Applications open |
+| Kentfields 2023 | | $50,000 | | | | | Develop tools, templates, and training for partnering organizations and for stipends for project navigators. | Agreement signed; need to get the 3 navigators in place | 6/15 | Get 3 navigators identified and in place |
+| Consortium Funding | Allyson | $19,817.43 | | | | | Project seed money; stormwater and municipal support is priority because of Consortium's original focus; unrestricted funds | | | |
+| Campbell Technical Assistance + Advancing Ag | Michael (Allyson) | $212,500 | | Extension requested 2/2026 | No match required | | Ag outreach and technical assistance | Follow-up with contractors on action steps | 8/1 | Report/Proposal |
+| High Foundation | Allyson | $50,000 | | | | | Awarded $50,000 for staff time | Finish using the final funds amount, which is currently $1372.86 as of 10/1/25 | 2/28 | Final Report |
+| NFWF MEB Weaving the Threads of Funding and Agriculture in Lancaster County | Alex | $1,000,000 | | January 1, 2024 to June 30, 2026 | 1:1 (Pledged $1,000,000) | NRCS and ACAP program through PA | Application submitted 4/27. For implementation funding to pair with RCPP and other sources for Ag practices in delisting catchments; project management; and forward contracting of TA. | Draft Agreement for Future Design Project/Reimbursement Folder/Documents for Landowner | Folder | Next Reimbursement Request Due 10/31/25 |
+| Conservation Innovation Fund (USDA) | Allyson | $100,000 | | | | | Time for Allyson and John Cox | This can be removed I believe or archived. Just need to reconcile the QB class to transfer into 00F | Folder | |
+| Kentfields 2024 | | $50,000 | | | | | | Ideas for 2025, Deliverables from 2024 | Folder | Report/App Due March |
+| Kentfields 2025 | Alex | $50,000 | | | $10, 000 | Partners staff time | Create a stormwater management plan and community engagement for a residential neighborhood located in a stream delisting catchment so that the combined elements can be replicated across the county | | Folder | |
+| Campbell Operating Funds | Allyson and all | $250,000 | | | No match required | | Main source of operating funds. Application submitted 5/1. | | Folder | Awarded! |
+| Campbell Exec Outreach | Allyson | $25,000 | | | | | John Cox's time | | Folder | Awarded! |
+| Growing Greener, Calamus Run | Monique | $89,690 | ~14k as of 1/2026 | Dates: 12/28/2022 - 7/25/2026 | | | Pre-implementation activities and ANM coaching | | Folder | |
+| Growing Greener, Conestoga | Monique | $252,500 | ~50k as of 1/2026 | Dates: 12/28/2022 - 7/25/2026 | | | Pre-implementation activities and ANM coaching for 3 catchments - Co76, Co77, Co49 | | Folder | |
+| CBT Regional Capacity Building | Monique | $368,436 | | 2/26/2027 (updated 02/2026) | | | 5 Year Cohort. Primarily for funding director and Ag capacity | Draft Subaward Agreements for Network Leads and LCCD | 2/3/25 | Draft Subaward Agreements |
+| NFWF INSR | Alex/Michael | $1,492,495 | | May 31, 2027 | $1,605,707.90 | Campbell Operating $250,000.00 | | Signed subgrantee awards | Folder | Interim Report July 1, 2026 |
+| | | | | | | Campbell TA $212,500.00 | | | | |
+| | | | | | | Kentfields $100,000.00 | | | | |
+| | | | | | | Steinman | | | | |
+| USDA Forestry Services, Gather & Grow | Alex | $230,000 | | 8/2029 | | | Alex time, Lanc Conservancy and tree planting | | Folder | Awarded, waiting on agreement |
+| Steinman | Allyson | $60,000 | | | | | John Cox's time | | Folder | Awarded! |
+| Campbell Professional Development | Allyson | $5,000 | | | | | | Create tab and tracking | Folder | Final Report due 1/1/2026 |
+| Pending/In Process Applications | | | | | | | | | | |
+| Grants | | Amount | | | | | Description | | File/Folder with More Info | Estimated Timeframe for Decision |
+| High Foundation | | $50,000 | | | | | Should hear back in Feb., all centered around communication (included some for CWF) | | 2026 Grant | |
+| Campbell TA | | | | | | | | | 2025 Campbell TA | |
+| Growing Greener WRI, Chiques | | | | | | | | | 2025 Growing Greener | |
