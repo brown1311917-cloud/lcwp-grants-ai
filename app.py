@@ -51,8 +51,12 @@ Below is the official documentation, rules, and SOPs for your role. You must adh
 """
 
 # 6. Initialize the AI Model
+# This removes the guessing game by dynamically finding the exact Gemini 1.5 Pro version your API key is authorized to use.
+available_models = [m.name for m in genai.list_models() if 'gemini-1.5-pro' in m.name]
+definitive_model_name = available_models[0] if available_models else "gemini-1.5-pro-002"
+
 model = genai.GenerativeModel(
-    model_name="gemini-2.0-flash",
+    model_name=definitive_model_name,
     system_instruction=system_instruction
 )
 # 6. Setup the Chat Memory
