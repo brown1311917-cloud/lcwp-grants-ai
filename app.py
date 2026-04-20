@@ -52,7 +52,7 @@ Below is the official documentation, rules, and SOPs for your role. You must adh
 
 # 6. Initialize the AI Model
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",
+    model_name="gemini-1.5-flash",
     system_instruction=system_instruction
 )
 # 6. Setup the Chat Memory
