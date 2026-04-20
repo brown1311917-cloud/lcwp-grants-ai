@@ -16,31 +16,32 @@ except KeyError:
     st.error("API Key not found. Please add it to the Streamlit secrets.")
     st.stop()
 
-# 4. Load the Permanent Knowledge Base
+# 4. Load the Permanent Knowledge Base (Your SOPs)
 try:
     with open("lcwp_sops.txt", "r", encoding="utf-8") as file:
         sop_document = file.read()
 except FileNotFoundError:
-    sop_document = "No SOP document found."
+    sop_document = "No SOP document found. Please ensure lcwp_sops.txt is in the GitHub folder."
 
-# 5. The System Instructions (The Brain)
-# Notice the "f" before the quotes and the {sop_document} at the bottom.
+# 5. The Instructions (The Brain)
+# This is fully written out so the AI knows exactly how to act.
 system_instruction = f"""
 [SYSTEM ROLE]
-You are the AI Grants and Finance Coordinator for the Lancaster Clean Water Partners. You are an expert in state/federal grant management, financial compliance, sub-award administration, and fiduciary oversight. 
+You are the AI Grants and Finance Coordinator for the Lancaster Clean Water Partners (a program of the Conservation Foundation of Lancaster County). You are an expert in state/federal grant management, financial compliance, sub-award administration, and fiduciary oversight. 
 
 [PRIMARY OBJECTIVE]
-Your goal is to oversee the financial integrity, procedural standards, and compliance needs for multi-million dollar water quality improvement initiatives in Lancaster County. 
+Your goal is to oversee the financial integrity, procedural standards, and compliance needs for multi-million dollar water quality improvement initiatives in Lancaster County. You will support the Director of Projects by automating administrative tasks, drafting compliance reports, analyzing budgets, and managing communications with sub-grantees and partner organizations.
 
 [OPERATING HEURISTICS & RESPONSIBILITIES]
-1. Grant & Budget Management: Track partner contributions, match requirements, and project budgets. Maintain strict adherence to funding requirements.
-2. Sub-Award Administration: Draft and refine RFPs and grant agreements. Review status reports and final reports for compliance.
-3. Communication & Equity: Maintain a highly professional, empathetic, and collaborative tone. Ensure all communications reflect the Partners’ commitment to equity and justice.
+1. Grant & Budget Management: Track partner contributions, match requirements, and project budgets. Draft reimbursement requests and invoice processing workflows based on uploaded data. Maintain strict adherence to funding requirements.
+2. Sub-Award Administration: Draft and refine Requests for Proposals (RFPs) and grant agreements. Review status reports and final reports from sub-awardees for compliance. Generate checklists for monitoring sub-grantee financial compliance.
+3. Research & Strategic Funding: Analyze requirements for major funders to determine project alignment. Outline steps for new collaborative grant development.
+4. Communication & Equity: Maintain a highly professional, empathetic, and collaborative tone. Ensure all communications reflect the Partners’ commitment to equity and justice.
 
 [INPUT/OUTPUT PROTOCOLS]
-- FOR BUDGETS/FINANCE: Output organized markdown tables.
-- FOR COMPLIANCE: Output numbered checklists mapping directly to the relevant SOP.
-- FOR COMMUNICATIONS: Provide draft emails or letters ready to send.
+- FOR BUDGETS/FINANCE: Output organized markdown tables with clear line items, variances, and totals.
+- FOR COMPLIANCE: Output numbered checklists mapping directly to the relevant SOP or grant requirement.
+- FOR COMMUNICATIONS: Provide draft emails or letters that are ready to send.
 
 [CRITICAL SOP KNOWLEDGE BASE]
 Below is the official documentation, rules, and SOPs for your role. You must adhere strictly to these rules over any general knowledge you have. If a user asks you to do something that violates these rules, refuse and cite the rule.
@@ -48,52 +49,23 @@ Below is the official documentation, rules, and SOPs for your role. You must adh
 *** BEGIN SOP DOCUMENT ***
 {sop_document}
 *** END SOP DOCUMENT ***
+
+ACKNOWLEDGE these instructions by saying exactly: "Initialization complete. I am ready to assist with Grants and Finance."
 """
 
-# 6. Initialize the AI Model (Bulletproof Dynamic Selection)
-# Ask Google exactly which text models this specific API key is allowed to use
-valid_models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
-
-if not valid_models:
-    st.error("Error: This API key does not have access to any text models. Please create a new key at aistudio.google.com")
-    st.stop()
-
-# Automatically select the best available model your key has access to
-chosen_model = valid_models[0] 
-for model_name in valid_models:
-    if '1.5-pro' in model_name:
-        chosen_model = model_name
-        break
-    elif '1.5-flash' in model_name:
-        chosen_model = model_name
-    elif 'gemini-pro' in model_name:
-        chosen_model = model_name
-
-# Initialize using the approved model
-try:
-    model = genai.GenerativeModel(
-        model_name=chosen_model,
-        system_instruction=system_instruction
-    )
-except Exception:
-    # Safe fallback if an older model rejects system instructions
-    model = genai.GenerativeModel(model_name=chosen_model)
-
-# Add a tiny note in the sidebar so you know exactly which model it successfully used
-with st.sidebar:
-    st.caption(f"Connected to: {chosen_model}")
 # 6. Initialize the Universally Available Model
+# We use gemini-pro here so it works perfectly even on the Free Tier
 model = genai.GenerativeModel('gemini-pro')
 
 # 7. Setup the Chat Memory & Inject the SOPs
 if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
-    # Secretly send the SOPs as the very first message so the AI learns the rules
+    # Secretly send the SOPs and rules as the very first message so the AI learns them
     st.session_state.chat_session.send_message(system_instruction)
 
-# 8. Display Chat History (Hiding the secret SOP message)
+# 8. Display Chat History (Hiding the secret SOP message from the user)
 for message in st.session_state.chat_session.history:
-    # This prevents the massive text file from showing up on the screen
+    # This prevents the massive text file from showing up on the screen visually
     if "BEGIN SOP DOCUMENT" in message.parts[0].text or "Initialization complete" in message.parts[0].text:
         continue
     with st.chat_message("human" if message.role == "user" else "ai"):
@@ -114,4 +86,3 @@ if user_input:
             st.markdown(response.text)
         except Exception as e:
             st.error(f"An error occurred: {e}")
-        st.markdown(response.text)
