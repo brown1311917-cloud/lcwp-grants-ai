@@ -82,25 +82,19 @@ except Exception:
 # Add a tiny note in the sidebar so you know exactly which model it successfully used
 with st.sidebar:
     st.caption(f"Connected to: {chosen_model}")
-# 6. Setup the Chat Memory
+# 6. Initialize the Universally Available Model
+model = genai.GenerativeModel('gemini-pro')
+
+# 7. Setup the Chat Memory & Inject the SOPs
 if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
+    # Secretly send the SOPs as the very first message so the AI learns the rules
+    st.session_state.chat_session.send_message(system_instruction)
 
-# 7. Sidebar for File Uploads (The Illusion of Complexity)
-with st.sidebar:
-    st.header("Document Upload")
-    st.write("Upload SOPs, budget CSVs, or Grant Guidelines here for the AI to analyze.")
-    uploaded_file = st.file_uploader("Choose a file", type=["txt", "csv", "md"])
-    if uploaded_file is not None:
-        file_contents = uploaded_file.getvalue().decode("utf-8")
-        st.success("File uploaded and processed!")
-        # Secretly feed the file text to the AI
-        st.session_state.chat_session.send_message(f"DOCUMENT UPLOADED FOR CONTEXT: {file_contents}")
-
-# 8. Display Chat History
+# 8. Display Chat History (Hiding the secret SOP message)
 for message in st.session_state.chat_session.history:
-    # Skip the hidden file upload messages so the chat looks clean
-    if "DOCUMENT UPLOADED FOR CONTEXT:" in message.parts[0].text:
+    # This prevents the massive text file from showing up on the screen
+    if "BEGIN SOP DOCUMENT" in message.parts[0].text or "Initialization complete" in message.parts[0].text:
         continue
     with st.chat_message("human" if message.role == "user" else "ai"):
         st.markdown(message.parts[0].text)
@@ -115,5 +109,9 @@ if user_input:
     
     # Get and show AI response
     with st.chat_message("ai"):
-        response = st.session_state.chat_session.send_message(user_input)
+        try:
+            response = st.session_state.chat_session.send_message(user_input)
+            st.markdown(response.text)
+        except Exception as e:
+            st.error(f"An error occurred: {e}")
         st.markdown(response.text)
